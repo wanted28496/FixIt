@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Scene_01_Jack_Up.unity
+    guid: 8caf0ace57727b94e9ab333a020401fb
+  - enabled: 1
+    path: Assets/Scenes/Scene_02_Lugnuts_Off.unity
+    guid: 28644b132f93b0743a0ddcba45e80faf
+  - enabled: 1
+    path: Assets/Scenes/Scene_03_Tire Replace.unity
+    guid: 86ec764a267767642b3050c13b571fbf
+  - enabled: 1
+    path: Assets/Scenes/Scene_04_Lugnuts_On.unity
+    guid: db42515aa5e202047932ccb855d84cda
+  - enabled: 1
+    path: Assets/Scenes/Scene_05_Jack_Down.unity
+    guid: 4e22dbea893a0b64db86fa06aca33803
   m_configObjects: {}
