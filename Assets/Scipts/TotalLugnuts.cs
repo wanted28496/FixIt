@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TotalLugnuts : MonoBehaviour {
 
@@ -14,6 +15,7 @@ public class TotalLugnuts : MonoBehaviour {
 	void Update () {
 		if(lugnut == 5)
         {
+            SceneManager.LoadScene(2);
         }
 	}
 }

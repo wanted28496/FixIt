@@ -25,7 +25,7 @@ public class MoveLugnut : MonoBehaviour {
     {
         isDragging = false;
         Vector3 pos = transform.position;
-        if (pos.y >= 0 && pos.y <= 0.34 && pos.x >= 1.54 && pos.x <= 2.24)
+        if (pos.y <= -0.66 && pos.y >= -1 && pos.x >= -0.193 && pos.x <= 0.5)
         {
             GetComponent<MoveLugnut>().enabled = false;
             placer.GetComponent<TotalLugnuts>().lugnut += 1;
